@@ -1,0 +1,67 @@
+{
+  "section": [
+    {
+      "id": 1,
+      "name": "hollywood"
+    },
+    {
+      "id": 2,
+      "name": "tollywood"
+    },
+    {
+      "id": 3,
+      "name": "kollywood"
+    }
+  ],
+  "movie": [
+    {
+      "id": 1,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "sectionSeq": 1
+    },
+    {
+      "id": 2,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "sectionSeq": 1
+    },
+    {
+      "id": 3,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "sectionSeq": 1
+    },
+    {
+      "id": 4,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "sectionSeq": 1
+    },
+    {
+      "id": 5,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "sectionSeq": 1
+    },
+    {
+      "id": 6,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "sectionSeq": 1
+    },
+    {
+      "id": 7,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "sectionSeq": 1
+    }
+  ]
+}
