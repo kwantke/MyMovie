@@ -1,5 +1,6 @@
 {
   "section": [
+
     {
       "id": 1,
       "name": "hollywood"
@@ -62,6 +63,55 @@
       "img": "../images/hollywood/2.jpg",
       "score": "9.8",
       "sectionSeq": 1
+    },
+    {
+      "id": 8,
+      "name": "BHEESMA",
+      "img": "../images/telugumovies/a.jpg",
+      "score": "9.8",
+      "sectionSeq": 2
+    },
+    {
+      "id": 9,
+      "name": "BIMBISARA",
+      "img": "../images/telugumovies/16.jpg",
+      "score": "9.3",
+      "sectionSeq": 2
+    },
+    {
+      "id": 10,
+      "name": "CITIMAR",
+      "img": "../images/telugumovies/19.jpg",
+      "score": "9.1",
+      "sectionSeq": 2
+    },
+    {
+      "id": 11,
+      "name": "RAMA RAO",
+      "img": "../images/telugumovies/15.jpg",
+      "score": "9.7",
+      "sectionSeq": 2
+    },
+    {
+      "id": 12,
+      "name": "VAKEEL SAB",
+      "img": "../images/telugumovies/27.jpg",
+      "score": "10",
+      "sectionSeq": 2
+    },
+    {
+      "id": 13,
+      "name": "SRI KARAM",
+      "img": "../images/telugumovies/11.jpg",
+      "score": "9.8",
+      "sectionSeq": 2
+    },
+    {
+      "id": 14,
+      "name": "SIBIA SAM",
+      "img": "../images/telugumovies/12.jpg",
+      "score": "9.8",
+      "sectionSeq": 2
     }
   ]
 }
