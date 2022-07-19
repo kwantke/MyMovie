@@ -4,9 +4,13 @@ import Section1 from "../component/Section1";
 import Section2 from "../component/Section2";
 import {Link} from "react-router-dom";
 import MovieList from "../component/MovieList";
+import useFetch from "../hook/useFetch";
+import MovieYtList from "../component/MovieYtList";
 export default function Section() {
     console.log("Section");
-    const [sectionList, setSectionList] = useState([]);
+    const sectionList = useFetch("http://localhost:3003/section");
+
+    /*const [sectionList, setSectionList] = useState([]);
     useEffect(() =>{
         fetch('http://localhost:3003/section')
             .then(res => {
@@ -16,7 +20,7 @@ export default function Section() {
                 console.log(data);
                 setSectionList(data);
             })
-    },[]);
+    },[]);*/
     return <>
         {/*LATEST MOVIES SECTION*/}
         <Section1/>
@@ -41,51 +45,16 @@ export default function Section() {
         {/**************************/}
         {/* YOUTUBE CONTENT SECTION*/}
         <section className="akira">
-            <div className="line">
-                <div className="yt-movies">
-                    <h1>YOUTUBE MOVIES</h1>
-                    <p>BLOCKBUSTER OF THE MONTH</p>
-                    <div className="yt-container">
-                        <div className="inside-yt">
-                            <img src="../images/yt/1.jpg" alt=""/>
-                            <div className="heading2">
-                                <p>ASPIRANTS</p>
-                                <p><span>&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
-                                <div className="like">
-                                    <span><i className="fas fa-thumbs-up"></i></span>
-                                    <p>2022</p>
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div className="inside-yt">
-                            <img src="../images/yt/1.jpg" alt=""/>
-                            <div className="heading2">
-                                <p>ASPIRANTS</p>
-                                <p><span>&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
-                                <div className="like">
-                                    <span><i className="fas fa-thumbs-up"></i></span>
-                                    <p>2022</p>
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div className="inside-yt">
-                            <img src="../images/yt/1.jpg" alt=""/>
-                            <div className="heading2">
-                                <p>ASPIRANTS</p>
-                                <p><span>&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
-                                <div className="like">
-                                    <span><i className="fas fa-thumbs-up"></i></span>
-                                    <p>2022</p>
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            <div className="line"></div>
+            <div className="yt-movies">
+                <h1>YOUTUBE MOVIES</h1>
+                <p>BLOCKBUSTER OF THE MONTH</p>
+                <MovieYtList sectionCode="YT" />
             </div>
+
         </section>
+        <div className="youtubebtn">
+            <Link to="">Watch More<i className="fa-brands fa-youtube"></i></Link>
+        </div>
     </>
 }

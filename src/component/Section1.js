@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 export default function Section1(){
 
-    return <div className="latest-movies">
+    return <div className="latest-movies" id="movies">
             <h1>TRENDING ON MAMA BRO</h1>
             <div className="latest-container">
                 {/*repeat*/}
