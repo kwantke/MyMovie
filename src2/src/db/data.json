@@ -1,0 +1,168 @@
+{
+  "section": [
+
+    {
+      "id": 1,
+      "name": "hollywood"
+    },
+    {
+      "id": 2,
+      "name": "tollywood"
+    }
+  ],
+  "movie": [
+    {
+      "id": 1,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 1
+    },
+    {
+      "id": 2,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 1
+    },
+    {
+      "id": 3,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 1
+    },
+    {
+      "id": 4,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 1
+    },
+    {
+      "id": 5,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 1
+    },
+    {
+      "id": 6,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 1
+    },
+    {
+      "id": 7,
+      "name": "TENET",
+      "img": "../images/hollywood/2.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 1
+    },
+    {
+      "id": 8,
+      "name": "BHEESMA",
+      "img": "../images/telugumovies/a.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 2
+    },
+    {
+      "id": 9,
+      "name": "BIMBISARA",
+      "img": "../images/telugumovies/16.jpg",
+      "score": "9.3",
+      "star": 4,
+      "sectionSeq": 2
+    },
+    {
+      "id": 10,
+      "name": "CITIMAR",
+      "img": "../images/telugumovies/19.jpg",
+      "score": "9.1",
+      "star": 4,
+      "sectionSeq": 2
+    },
+    {
+      "id": 11,
+      "name": "RAMA RAO",
+      "img": "../images/telugumovies/15.jpg",
+      "score": "9.7",
+      "star": 4,
+      "sectionSeq": 2
+    },
+    {
+      "id": 12,
+      "name": "VAKEEL SAB",
+      "img": "../images/telugumovies/27.jpg",
+      "score": "10",
+      "star": 4,
+      "sectionSeq": 2
+    },
+    {
+      "id": 13,
+      "name": "SRI KARAM",
+      "img": "../images/telugumovies/11.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 2
+    },
+    {
+      "id": 14,
+      "name": "SIBIA SAM",
+      "img": "../images/telugumovies/12.jpg",
+      "score": "9.8",
+      "star": 4,
+      "sectionSeq": 2
+    },
+    {
+      "id": 15,
+      "name": "ASPIRANTS",
+      "img": "../images/yt/1.jpg",
+      "score": "9.8",
+      "like": 200,
+      "star": 5,
+      "movieYear": 2022,
+      "sectionCode": "YT",
+      "sectionSeq": 3
+    },
+    {
+      "id": 16,
+      "name": "KOTA FACTORU",
+      "img": "../images/yt/2.jpg",
+      "like": 200,
+      "star": 5,
+      "movieYear": 2018,
+      "sectionCode": "YT",
+      "sectionSeq": 3
+    },
+    {
+      "id": 17,
+      "name": "SOFTWARE DEV",
+      "img": "../images/yt/3.jpg",
+      "like": 100,
+      "star": 3,
+      "movieYear": 2019,
+      "sectionCode": "YT",
+      "sectionSeq": 3
+    },
+    {
+      "id": 18,
+      "name": "SEX LIFE",
+      "img": "../images/yt/4.jpg",
+      "like": 30,
+      "star": 4,
+      "movieYear": 2020,
+      "sectionCode": "YT",
+      "sectionSeq": 3
+    }
+  ]
+}
